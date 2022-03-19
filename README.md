@@ -1,2 +1,1 @@
-# Java_practice
-java practice
+Image Encryption and Decryption project.
