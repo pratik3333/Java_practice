@@ -30,7 +30,7 @@ public class Image_Operation {
             fos.write(data);
             fos.close();
             fis.close();
-            JOptionPane.showMessageDialog(null,"Done");
+            JOptionPane.showMessageDialog(null,"your selected object is encrypted");
 
 
         }catch (Exception e)
@@ -45,7 +45,7 @@ public class Image_Operation {
         System.out.println("This is testing");
 
         JFrame f=new JFrame();
-        f.setTitle("Image Operation");
+        f.setTitle("File Operation");
         f.setSize(400,400);
         f.setLocationRelativeTo(null);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -53,7 +53,7 @@ public class Image_Operation {
         Font font=new Font("Roboto",Font.BOLD,25);
         //creating button
         JButton button=new JButton();
-        button.setText("Open Image");
+        button.setText("Open File");
         button.setFont(font);
 
 
