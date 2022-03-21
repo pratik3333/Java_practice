@@ -25,6 +25,7 @@ public class Image_Operation {
                 data[i]=(byte)(b^key);
                 i++;
             }
+            
 
             FileOutputStream fos=new FileOutputStream(file);
             fos.write(data);
