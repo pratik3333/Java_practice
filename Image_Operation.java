@@ -31,7 +31,7 @@ public class Image_Operation {
             fos.write(data);
             fos.close();
             fis.close();
-            JOptionPane.showMessageDialog(null,"your selected object is encrypted");
+            JOptionPane.showMessageDialog(null,"your selected object is encrypted.");
 
 
         }catch (Exception e)
